@@ -1,0 +1,47 @@
+{
+  "name": "DOT-Land",
+  "version": "1.0.0",
+  "description": "A virtual real estate game using Unique Network and Polkadot.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "author": "Anil",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^4.0.0",
+    "@polkadot/keyring": "^4.0.0",
+    "@polkadot/util-crypto": "^4.0.0",
+    "@unique-nft/sdk": "^0.2.0",
+    "@unique-nft/sr25519": "^0.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "assert": "^2.1.0",
+    "buffer": "^5.6.0",
+    "crypto-browserify": "^3.12.0",
+    "css-loader": "^7.1.2",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^7.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.4",
+    "url": "^0.11.4",
+    "vm-browserify": "^1.1.2",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

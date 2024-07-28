@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar, .faucet, .marketplace {
+    margin: 20px;
+  }
+  
+  .land-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .land-card h2 {
+    margin: 0;
+  }
+  
+  .land-card p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
