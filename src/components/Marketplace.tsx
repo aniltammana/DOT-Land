@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchLands } from '../api/marketplace';
 import LandCard from './LandCard';
-import { Land } from '../api/types';
 
 interface MarketplaceProps {
   account: string | null;
@@ -27,7 +26,9 @@ const Marketplace: React.FC<MarketplaceProps> = ({ account }) => {
     <div className="marketplace">
       <h2>Marketplace</h2>
       {lands.length > 0 ? (
-        lands.map((land) => <LandCard key={land.id} land={land} />)
+        lands.map((land) => (
+          <LandCard key={land.id} land={land} account={account} />
+        ))
       ) : (
         <p>No lands available</p>
       )}
